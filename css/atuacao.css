@@ -1,0 +1,75 @@
+@import "./global.css";
+
+body {
+  background-image: url("../assets/area-de-atuação\ 1.png");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+
+.atuacao {
+  position: relative;
+  padding: 120px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.atuacao .content {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.atuacao .content h2 {
+  font-family: "MADE TOMMY", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52.29px;
+  text-transform: uppercase;
+  color: #c00000;
+}
+
+.atuacao .content h2 span {
+  font-weight: 700px;
+  line-height: 52.63px;
+  color: #383838;
+}
+
+.atuacao .content .empresas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.atuacao .content .empresas div a img {
+  width: 246px;
+}
+.atuacao .content .empresas div a .eegl {
+  width: 280px;
+  margin-top: 20px;
+}
+
+.atuacao .content p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: "MADE TOMMY", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.92px;
+  color: #1e1e1e;
+}
+
+.footer {
+  background-color: #505050cc;
+  clear: both;
+}

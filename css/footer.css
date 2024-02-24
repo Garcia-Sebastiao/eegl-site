@@ -1,0 +1,75 @@
+.footer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+.footer .content {
+    width: 100%;
+    max-width: 985px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .content .address {
+    width: 217px;
+}
+
+.footer .content h2{
+    font-family: 'MADE TOMMY', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.07px;
+    color: #fff;
+}
+
+.footer .content .address p {
+    width: 217px;
+    font-family: 'MADE TOMMY', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.92px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.footer .content .address p span {
+    font-weight: 700;
+    line-height: 20.05px;
+}
+
+.footer .content .contactos {
+    width: 227px;
+    color: #fff;
+    font-family: "MADE TOMMY", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.92px;
+}
+
+.footer .content .contactos .emails {
+    position: relative;
+    margin-top: 20px;
+    width: 227px;
+    height: 72px;
+}
+
+.footer .content .contactos .namber-phones {
+    position: relative;
+}
+
+.footer .content .media-social {
+    width: 105px;
+}
+
+.footer .content .media-social .midea {
+    width: 105px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

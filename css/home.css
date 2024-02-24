@@ -1,0 +1,71 @@
+@import "./global.css";
+
+body {
+  background-image: url("../assets/area-de-atuação\ 1.png");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+
+.banner {
+  position: relative;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  padding-top: 80px;
+}
+
+.banner .banner-content {
+  position: relative;
+  display: flex;
+  padding-top: 170px;
+  margin-top: 80px;
+  align-items: center;
+  width: 100%;
+}
+
+.banner .banner-content .left {
+  position: relative;
+}
+
+.banner .banner-content .left p {
+  width: 584px;
+  font-size: 32px;
+  font-family: "MADE TOMMY", sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 25px;
+  color: #505050;
+  /* background-color: red; */
+}
+
+.banner .banner-content .left h1 {
+  font-size: 128px;
+  margin-top: 27px;
+  font-family: "MADE TOMMY", sans-serif;
+  font-weight: 800;
+  line-height: 161.54px;
+  color: #c00000;
+}
+
+.banner .banner-content .right {
+  position: absolute;
+  right: 0;
+  top: -100px;
+  width: 619px;
+  height: 563px;
+  /* margin-left: 17px; */
+  /* background-color: aqua; */
+}
+
+.banner .banner-content .right img {
+  pointer-events: none;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  margin-top: 424px;
+}
